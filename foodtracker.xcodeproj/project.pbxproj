@@ -14,6 +14,7 @@
 		9635050F21CECC0400A8D666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9635050D21CECC0400A8D666 /* LaunchScreen.storyboard */; };
 		9635051A21CECC0400A8D666 /* foodtrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635051921CECC0400A8D666 /* foodtrackerTests.swift */; };
 		964E77EE21CF30B400DA263B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E77ED21CF30B400DA263B /* RatingControl.swift */; };
+		964E77F021CF502500DA263B /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E77EF21CF502500DA263B /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9635051921CECC0400A8D666 /* foodtrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodtrackerTests.swift; sourceTree = "<group>"; };
 		9635051B21CECC0400A8D666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964E77ED21CF30B400DA263B /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		964E77EF21CF502500DA263B /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				9635050421CECC0200A8D666 /* AppDelegate.swift */,
 				9635050621CECC0200A8D666 /* ViewController.swift */,
 				9635050821CECC0200A8D666 /* Main.storyboard */,
+				964E77EF21CF502500DA263B /* Meal.swift */,
 				964E77ED21CF30B400DA263B /* RatingControl.swift */,
 				9635050B21CECC0400A8D666 /* Assets.xcassets */,
 				9635050D21CECC0400A8D666 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964E77F021CF502500DA263B /* Meal.swift in Sources */,
 				9635050721CECC0200A8D666 /* ViewController.swift in Sources */,
 				964E77EE21CF30B400DA263B /* RatingControl.swift in Sources */,
 				9635050521CECC0200A8D666 /* AppDelegate.swift in Sources */,
@@ -406,6 +410,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LY8SH67J;
 				INFOPLIST_FILE = foodtrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,6 +431,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LY8SH67J;
 				INFOPLIST_FILE = foodtrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
